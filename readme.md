@@ -21,6 +21,8 @@ mv NVIMconfig nvim
 - https://github.com/nvim-telescope/telescope.nvim
 - https://github.com/rebelot/kanagawa.nvim
 - https://github.com/nvim-treesitter/nvim-treesitter
+- https://github.com/VonHeikemen/lsp-zero.nvim
+- https://github.com/williamboman/mason.nvim
 
 
 ## Author
