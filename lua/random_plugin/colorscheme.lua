@@ -15,7 +15,9 @@ require('kanagawa').setup({
         theme = { wave = {}, lotus = {}, dragon = {}, all = {} },
     },
     overrides = function(colors) -- add/modify highlights
-        return {}
+        return {
+            
+        }
     end,
     theme = "wave",              -- Load "wave" theme when 'background' option is not set
     background = {               -- map the value of 'background' option to a theme
@@ -26,3 +28,10 @@ require('kanagawa').setup({
 
 -- setup must be called before loading
 vim.cmd("colorscheme kanagawa")
+
+vim.cmd [[
+  highlight LineNr ctermbg=NONE  ctermfg=lightgrey guibg=NONE guifg=lightgrey
+]]
+
+vim.api.nvim_command('highlight ColorColumn ctermbg=NONE guibg=NONE')
+vim.api.nvim_command('highlight SignColumn ctermbg=NONE guibg=NONE')
