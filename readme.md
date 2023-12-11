@@ -23,6 +23,7 @@ mv NVIMconfig nvim
 - https://github.com/nvim-treesitter/nvim-treesitter
 - https://github.com/VonHeikemen/lsp-zero.nvim
 - https://github.com/williamboman/mason.nvim
+- https://github.com/akinsho/bufferline.nvim
 
 
 ## Author

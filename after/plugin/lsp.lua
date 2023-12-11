@@ -15,6 +15,7 @@ require('mason-lspconfig').setup({
 	"ltex",
 	"marksman",
 	"jedi_language_server",
+    -- "hls",
   },
   handlers = {
     lsp_zero.default_setup,
