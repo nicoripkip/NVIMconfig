@@ -11,10 +11,24 @@ Clone the repo
 ```bash
 git clone https://github.com/nicoripkip/NVIMconfig.git
 ```
+
 Rename the repo folder to nvim
 ```bash
 mv NVIMconfig nvim
 ```
+
+Make sure you have packer installed. Install it from the github here:
+- https://github.com/wbthomason/packer.nvim
+
+After you have installed packer. Navigate to lua/random_plugin/packer.lua and type
+```vim
+:so
+```
+then type the command:
+```vim
+:packer
+```
+
 
 ## Packages
 - https://github.com/wbthomason/packer.nvim
