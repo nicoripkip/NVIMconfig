@@ -1,7 +1,7 @@
 # My own nvim configuration build
 
 
-# Installation
+## Installation
 Navigate to .config
 ```bash
 cd ~/.config
@@ -39,6 +39,7 @@ then type the command:
 - https://github.com/VonHeikemen/lsp-zero.nvim
 - https://github.com/williamboman/mason.nvim
 - https://github.com/akinsho/bufferline.nvim
+- https://github.com/nvim-orgmode/orgmode?tab=readme-ov-file 
 
 
 ## Author
