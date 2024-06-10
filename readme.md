@@ -20,6 +20,7 @@ mv NVIMconfig nvim
 Make sure you have packer installed. Install it from the github here:
 - https://github.com/wbthomason/packer.nvim
 
+
 After you have installed packer. Navigate to lua/random_plugin/packer.lua and type
 ```vim
 :so
